@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Consolus;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: -10px;
+	padding-right: 30px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	background: #1c00b5;
+	color: #fff;
+	padding:5px 20px;
+	border: 2px solid #fff;
+	border-radius: 30px;
+	transition: 0.5s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	coor: #000;
+	cursor: pointer;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+body{
+	background-image: url(../back.jpg);
+	height: 150vh;
+	background-size: cover;
+background-position: center;
